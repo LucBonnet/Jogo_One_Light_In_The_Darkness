@@ -42,3 +42,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: chao
+    uniqueID: 1310391855
+    locked: 0
+  - name: player
+    uniqueID: 3124268711
+    locked: 0
+  - name: cima
+    uniqueID: 1593459793
+    locked: 0
+  - name: teto
+    uniqueID: 359792509
+    locked: 0
+  - name: blockLight
+    uniqueID: 3350075361
+    locked: 0
