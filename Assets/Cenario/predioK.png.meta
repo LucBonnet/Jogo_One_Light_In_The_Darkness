@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2b3a95364adcc204fbffb723eedeba82
+guid: 2b2fae8c0fdd5fb4084605f87f08d63d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 27
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,7 +110,7 @@ TextureImporter:
     buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -123,7 +123,7 @@ TextureImporter:
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -136,7 +136,7 @@ TextureImporter:
     buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -149,7 +149,7 @@ TextureImporter:
     buildTarget: tvOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -162,13 +162,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: predioK3_0
+      name: predioK_0
       rect:
         serializedVersion: 2
-        x: 450
-        y: 585
-        width: 114
-        height: 61
+        x: 0
+        y: 72
+        width: 1189
+        height: 1008
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,8 +176,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc00f272d9ec8984d9cd534c63dcb485
-      internalID: -1593977709
+      spriteID: c30d13110c8389d4a958cea9a75ada07
+      internalID: -1744683404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predioK_1
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 971
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c54fa5e7e274b4f92bbfbd4ce334dc
+      internalID: 1977665943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predioK_2
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 923
+        width: 11
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec85ccb5e2019d4eb8790dd1e10bf6b
+      internalID: -804202433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predioK_3
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 889
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b18ef973ad6c64bbf32d15139e7aba
+      internalID: -934767703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predioK_4
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 860
+        width: 1
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b14104a4c28a8c4db18b9279d5a4eca
+      internalID: -1020502630
       vertices: []
       indices: 
       edges: []
@@ -193,7 +277,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      predioK3_0: -1593977709
+      predioK_0: -1744683404
+      predioK_1: 1977665943
+      predioK_2: -804202433
+      predioK_3: -934767703
+      predioK_4: -1020502630
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
