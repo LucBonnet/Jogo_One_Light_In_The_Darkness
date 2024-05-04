@@ -401,7 +401,7 @@ TextureImporter:
         width: 1401
         height: 333
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -422,7 +422,7 @@ TextureImporter:
         width: 171
         height: 88
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -430,6 +430,27 @@ TextureImporter:
       bones: []
       spriteID: d0e8dddda609b9644b04b023bbce621c
       internalID: -556201716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1andar_13
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 737
+        width: 49
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c65778638681124fa1a99ba1da3025a
+      internalID: 178675461
       vertices: []
       indices: 
       edges: []
@@ -450,6 +471,7 @@ TextureImporter:
       1andar_10: -1416436887
       1andar_11: 1492932901
       1andar_12: -556201716
+      1andar_13: 178675461
       1andar_2: 1034849618
       1andar_3: -1881014850
       1andar_4: 1515700478

@@ -8,4 +8,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Entrada.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Terreo.unity
+    guid: 09c523854d768b74b919ba0022f54dd3
+  - enabled: 1
+    path: Assets/Scenes/1Andar.unity
+    guid: 32b04579e9486c04396886471772cf92
+  - enabled: 1
+    path: Assets/Scenes/2Andar.unity
+    guid: fd4dcae1dc73eb5499449f9a7f7e7cd4
+  - enabled: 1
+    path: Assets/Scenes/3Andar.unity
+    guid: ad853fa53d757f249ae7b3bfac72052f
+  - enabled: 1
+    path: Assets/Scenes/4Andar.unity
+    guid: 9f681376d51a6a24881dd6c587e2afc8
   m_configObjects: {}
