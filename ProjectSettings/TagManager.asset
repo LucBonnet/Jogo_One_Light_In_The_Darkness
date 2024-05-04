@@ -57,3 +57,9 @@ TagManager:
   - name: blockLight
     uniqueID: 3350075361
     locked: 0
+  - name: janela
+    uniqueID: 2268409769
+    locked: 0
+  - name: New Layer 7
+    uniqueID: 2979825539
+    locked: 0
