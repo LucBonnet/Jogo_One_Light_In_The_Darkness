@@ -608,7 +608,7 @@ GameObject:
   - component: {fileID: 352669133}
   - component: {fileID: 352669132}
   m_Layer: 0
-  m_Name: salasterreo_5
+  m_Name: reboque1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -652,8 +652,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1310391855
-  m_SortingLayer: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 636627091, guid: 1ccb2a0feb40b2a48b8925480b5e8de4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -675,7 +675,7 @@ Transform:
   m_GameObject: {fileID: 352669131}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25.423, y: 16.427, z: 4.2961507}
+  m_LocalPosition: {x: -25.437, y: 16.373, z: 4.2961507}
   m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -759,8 +759,8 @@ Transform:
   m_GameObject: {fileID: 368458367}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -26.493923, y: 7.4704366, z: 4.2961507}
-  m_LocalScale: {x: 1.0328866, y: 0.886, z: 1}
+  m_LocalPosition: {x: -26.4937, y: 7.55796, z: 4.2961507}
+  m_LocalScale: {x: 1.0332274, y: 0.9936799, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1525055150}
@@ -2114,7 +2114,7 @@ GameObject:
   - component: {fileID: 1252838029}
   - component: {fileID: 1252838030}
   m_Layer: 0
-  m_Name: salasterreo_5 (1)
+  m_Name: reboque2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2129,7 +2129,7 @@ Transform:
   m_GameObject: {fileID: 1252838028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25.424, y: 16.3622, z: 4.2961507}
+  m_LocalPosition: {x: -25.4831, y: 16.3627, z: 4.2961507}
   m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2173,8 +2173,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1310391855
-  m_SortingLayer: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 636627091, guid: 1ccb2a0feb40b2a48b8925480b5e8de4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2434,7 +2434,7 @@ GameObject:
   - component: {fileID: 1371747138}
   - component: {fileID: 1371747137}
   m_Layer: 0
-  m_Name: salasterreo_6 (1)
+  m_Name: reboque4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2797,7 +2797,7 @@ GameObject:
   - component: {fileID: 1530402162}
   - component: {fileID: 1530402161}
   m_Layer: 0
-  m_Name: salasterreo_baixo
+  m_Name: parede_baixo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2881,7 +2881,7 @@ GameObject:
   - component: {fileID: 1565657221}
   - component: {fileID: 1565657220}
   m_Layer: 0
-  m_Name: salasterreo_6
+  m_Name: reboque3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
