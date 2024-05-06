@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - walls
+  - subir
+  - descer
   layers:
   - Default
   - TransparentFX

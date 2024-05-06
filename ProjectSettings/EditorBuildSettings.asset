@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/4Andar.unity
     guid: 9f681376d51a6a24881dd6c587e2afc8
+  - enabled: 1
+    path: Assets/Scenes/Terreo 1.unity
+    guid: da16909dab2b151409d8b009a15a54e9
   m_configObjects: {}
