@@ -8,12 +8,17 @@ public class jogador : MonoBehaviour
     public KeyCode moveDown = KeyCode.S;
     public KeyCode moveLeft = KeyCode.A;
     public KeyCode moveRight = KeyCode.D;
+    public KeyCode run = KeyCode.LeftShift;
     private float speed = 3f;
     public float boundX = 0f;
     private Rigidbody2D rb2d;
     private Vector2 moveDirection;
     private Animator anime;
     int count = 0;
+    public Stamina stamina; // Referência ao script do jogador
+
+    
+
 
     public GameObject lanterna;
     
@@ -24,6 +29,10 @@ public class jogador : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+    
+
+        // Obtém a referência ao script do jogador
+
         anime = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
     }
@@ -43,7 +52,17 @@ public class jogador : MonoBehaviour
         float angle = (Mathf.Atan2(lPos.y - mousePos.y, lPos.x - mousePos.x) * Mathf.Rad2Deg) + 90;
         lanterna.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
 
-
+        if(Input.GetKey(run)){
+            speed = 5f;
+            anime.speed = 1.6f;
+            stamina.stamina = stamina.stamina -1f;
+            
+        }
+        else{
+            speed =3f; 
+            anime.speed = 1.0f;  
+         
+        }
         Vector2 movePosition = (speed * Time.fixedDeltaTime * moveDirection.normalized) + rb2d.position;
         rb2d.MovePosition(movePosition);
 

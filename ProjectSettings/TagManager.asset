@@ -7,6 +7,7 @@ TagManager:
   - walls
   - subir
   - descer
+  - stamina
   layers:
   - Default
   - TransparentFX
@@ -64,4 +65,7 @@ TagManager:
     locked: 0
   - name: New Layer 7
     uniqueID: 2979825539
+    locked: 0
+  - name: hud
+    uniqueID: 139244813
     locked: 0
