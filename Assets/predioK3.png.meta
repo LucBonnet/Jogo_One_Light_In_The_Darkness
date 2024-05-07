@@ -170,7 +170,7 @@ TextureImporter:
         width: 114
         height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -178,6 +178,27 @@ TextureImporter:
       bones: []
       spriteID: dc00f272d9ec8984d9cd534c63dcb485
       internalID: -1593977709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: predioK3_1
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 638
+        width: 65
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0775d515464f0641b06ab145a2706fe
+      internalID: 1572367180
       vertices: []
       indices: 
       edges: []
@@ -194,6 +215,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       predioK3_0: -1593977709
+      predioK3_1: 1572367180
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

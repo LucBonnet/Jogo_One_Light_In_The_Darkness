@@ -16,6 +16,7 @@ public class jogador : MonoBehaviour
     private Animator anime;
     int count = 0;
     public Stamina stamina; // Referência ao script do jogador
+    public bool cancado;
 
     
 
@@ -47,18 +48,19 @@ public class jogador : MonoBehaviour
 
     private void FixedUpdate()
     {
+
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector3 lPos = lanterna.transform.position;
         float angle = (Mathf.Atan2(lPos.y - mousePos.y, lPos.x - mousePos.x) * Mathf.Rad2Deg) + 90;
         lanterna.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
-
-        if(Input.GetKey(run)){
-            speed = 5f;
-            anime.speed = 1.6f;
-            stamina.stamina = stamina.stamina -1f;
-            
-        }
+            if(Input.GetKey(run) && !cancado){
+                speed = 5f;
+                anime.speed = 1.6f;
+                stamina.stamina = stamina.stamina -1f;
+            }
+              
         else{
+            stamina.stamina = stamina.stamina +0.1f;
             speed =3f; 
             anime.speed = 1.0f;  
          
