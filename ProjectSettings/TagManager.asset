@@ -8,6 +8,7 @@ TagManager:
   - subir
   - descer
   - stamina
+  - sombraI
   layers:
   - Default
   - TransparentFX

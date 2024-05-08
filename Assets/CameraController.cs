@@ -11,8 +11,6 @@ public class CameraController : MonoBehaviour
     private float boundMinX, boundMaxX, boundMinY, boundMaxY;
     private Boolean limit;
 
-
-
     // Start is called before the first frame update
     void Start()
     {

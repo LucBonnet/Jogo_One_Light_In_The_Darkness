@@ -12,6 +12,13 @@ public class SombraControler : MonoBehaviour
     private bool attacking;
     private Vector3 initialPosition;
 
+    public static int life = 10;
+    private bool damage = false;
+    private int initialLife = life;
+
+    private float timerDamage = 0.0f;
+    private float waitTimeDamage = 0.6f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +39,15 @@ public class SombraControler : MonoBehaviour
         }
     }
 
+    public void StartDamage() {
+        damage = true;
+    }
+
+    public void StopDamage() {
+        damage = false;
+        life = initialLife;
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -50,5 +66,20 @@ public class SombraControler : MonoBehaviour
         } else {
             spr.flipX = true;
         }
+
+        if(damage) {
+            timerDamage += Time.deltaTime;
+            if (timerDamage >= waitTimeDamage){
+                life = Mathf.Max(life - 1, 0);
+                timerDamage = 0.0f;
+                speed = Mathf.Max(speed - 0.1f, 0);
+
+                if(life <= 0) {
+                    Destroy(gameObject);
+                }
+            }
+        }
+        
+        spr.material.color = new Color(1f, 1f, 1f, Mathf.Max((float) ((float)life/10), 0.1f));
     }
 }

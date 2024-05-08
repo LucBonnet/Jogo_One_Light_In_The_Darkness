@@ -18,9 +18,6 @@ public class jogador : MonoBehaviour
     public Stamina stamina; // Referência ao script do jogador
     public bool cancado;
 
-    
-
-
     public GameObject lanterna;
     
     public void PlayerAnimation(string animationName){
@@ -30,12 +27,22 @@ public class jogador : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-    
-
         // Obtém a referência ao script do jogador
 
         anime = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
+    }
+
+    void OnTriggerEnter2D(Collider2D hitinfo) {
+        if(hitinfo.CompareTag("sombraI")) {
+            hitinfo.SendMessage("StartDamage", 0f, SendMessageOptions.RequireReceiver);
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D hitinfo) {
+        if(hitinfo.CompareTag("sombraI")) {
+            hitinfo.SendMessage("StopDamage", 0f, SendMessageOptions.RequireReceiver);
+        }
     }
 
     // Update is called once per frame
