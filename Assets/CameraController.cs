@@ -7,25 +7,37 @@ public class CameraController : MonoBehaviour
 {
     [SerializeField]private Transform target;
     private Camera cam;
-    public SpriteRenderer cenario;
+    public SpriteRenderer[] cenarios;
     private float boundMinX, boundMaxX, boundMinY, boundMaxY;
-    private Boolean limit;
 
     // Start is called before the first frame update
     void Start()
     {
         cam = GetComponent<Camera>();
-        boundMinX = cenario.bounds.min.x;
-        boundMaxX = cenario.bounds.max.x;
-        boundMinY = cenario.bounds.min.y;
-        boundMaxY = cenario.bounds.max.y;
-        limit = false;
+
+        boundMinY = cenarios[0].bounds.min.y;
+        boundMaxY = cenarios[0].bounds.max.y;
+        boundMinX = cenarios[0].bounds.min.x;
+        boundMaxX = cenarios[0].bounds.max.x;
+        for(int i = 0; i < cenarios.Length; i++) {
+            float cMinX = cenarios[i].bounds.min.x;
+            float cMaxX = cenarios[i].bounds.max.x;
+            float cMinY = cenarios[i].bounds.min.y;
+            float cMaxY = cenarios[i].bounds.max.y;
+
+            if(cMinY < boundMinY) boundMinY = cMinY;
+            if(cMaxY > boundMaxY) boundMaxY = cMaxY;
+
+            if(cMinX < boundMinX) boundMinX = cMinX;
+            if(cMaxX > boundMaxX) boundMaxX = cMaxX;
+        }
+    	Debug.Log("Final: " + boundMinY + ", " + boundMaxY);
+    	Debug.Log("Final: " + boundMinX + ", " + boundMaxX);
     }
 
     // Update is called once per frame
     private void LateUpdate()
     {
-        limit = false;
         float halfHeight = cam.orthographicSize;
         float halfWidth = cam.aspect * halfHeight;
 

@@ -132,6 +132,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -278,27 +304,6 @@ TextureImporter:
       bones: []
       spriteID: 9651f32be9b670b41b10e3d19faf1513
       internalID: 1244653599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: salasterreo_7
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f199179bea83e50439ec8066d5bf281c
-      internalID: -936710817
       vertices: []
       indices: 
       edges: []
@@ -543,7 +548,7 @@ TextureImporter:
         width: 1188
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -551,6 +556,111 @@ TextureImporter:
       bones: []
       spriteID: 383948507122eac43aafdd3897daf0f1
       internalID: -209782194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salasterreo_20
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 631
+        width: 1175
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696dc55357f2c524cbcc0dfbb4561a7b
+      internalID: 789190012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salasterreo_21
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 659
+        width: 1175
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25945f1f775203446849aa808b9e6051
+      internalID: -1925798773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salasterreo_7
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 464
+        width: 15
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5484955008a8ba643aef1d16d0e8934a
+      internalID: -936710817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salasterreo_22
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 464
+        width: 15
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bff2c07c7a97548b3936fbd0ad9099
+      internalID: 1918853470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salasterreo_23
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 860
+        width: 15
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573d2f46c1aedf0489cc0aeda7f00c46
+      internalID: -1770172249
       vertices: []
       indices: 
       edges: []
@@ -579,6 +689,10 @@ TextureImporter:
       salasterreo_18: -684452585
       salasterreo_19: -209782194
       salasterreo_2: -1069037409
+      salasterreo_20: 789190012
+      salasterreo_21: -1925798773
+      salasterreo_22: 1918853470
+      salasterreo_23: -1770172249
       salasterreo_3: -1528972474
       salasterreo_4: 735474743
       salasterreo_5: 636627091

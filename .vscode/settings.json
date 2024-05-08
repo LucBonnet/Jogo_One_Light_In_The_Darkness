@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Jogo_One_Light_In_The_Darkness-main.sln"
+    "dotnet.defaultSolution": "Jogo_One_Light_In_The_Darkness.sln"
 }
