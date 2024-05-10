@@ -38,13 +38,13 @@ public class jogador : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D hitinfo) {
         
-        if(hitinfo.CompareTag("sombraI") || hitinfo.CompareTag("sombraII")) {
+        if(hitinfo.CompareTag("sombraI") || hitinfo.CompareTag("sombraII") || hitinfo.CompareTag("sombraIII")) {
             hitinfo.SendMessage("StartDamage", 0f, SendMessageOptions.RequireReceiver);
         }
     }
 
     void OnTriggerExit2D(Collider2D hitinfo) {
-        if(hitinfo.CompareTag("sombraI") || hitinfo.CompareTag("sombraII")) {
+        if(hitinfo.CompareTag("sombraI") || hitinfo.CompareTag("sombraII") || hitinfo.CompareTag("sombraIII")) {
             hitinfo.SendMessage("StopDamage", 0f, SendMessageOptions.RequireReceiver);
         }
     }

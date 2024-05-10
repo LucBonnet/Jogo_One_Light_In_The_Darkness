@@ -10,6 +10,7 @@ TagManager:
   - stamina
   - sombraI
   - sombraII
+  - sombraIII
   layers:
   - Default
   - TransparentFX
