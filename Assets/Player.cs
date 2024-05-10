@@ -8,6 +8,7 @@ public class jogador : MonoBehaviour
     public KeyCode moveDown = KeyCode.S;
     public KeyCode moveLeft = KeyCode.A;
     public KeyCode moveRight = KeyCode.D;
+    public KeyCode camAttack = KeyCode.Space;
     public KeyCode run = KeyCode.LeftShift;
     private float speed = 3f;
     public float boundX = 0f;
@@ -17,6 +18,8 @@ public class jogador : MonoBehaviour
     int count = 0;
     public Stamina stamina; // Referência ao script do jogador
     public bool cancado;
+    public GameObject cam;
+    public int hasCam = 1; // 0 - não tem camera, 1 - camera 1, 2 - camera 2
 
     public GameObject lanterna;
     
@@ -37,7 +40,6 @@ public class jogador : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D hitinfo) {
-        
         if(hitinfo.CompareTag("sombraI") || hitinfo.CompareTag("sombraII") || hitinfo.CompareTag("sombraIII")) {
             hitinfo.SendMessage("StartDamage", 0f, SendMessageOptions.RequireReceiver);
         }
@@ -55,11 +57,14 @@ public class jogador : MonoBehaviour
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
         moveDirection = new Vector2(horizontal,vertical);         
+
+        if(Input.GetKeyDown(camAttack) && hasCam > 0) {
+            cam.SetActive(true);
+        }
     }
 
     private void FixedUpdate()
     {
-
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector3 lPos = lanterna.transform.position;
         float angle = (Mathf.Atan2(lPos.y - mousePos.y, lPos.x - mousePos.x) * Mathf.Rad2Deg) + 90;
@@ -73,8 +78,7 @@ public class jogador : MonoBehaviour
         else{
             stamina.stamina = stamina.stamina +0.1f;
             speed =3f; 
-            anime.speed = 1.0f;  
-         
+            anime.speed = 1.0f; 
         }
         Vector2 movePosition = (speed * Time.fixedDeltaTime * moveDirection.normalized) + rb2d.position;
         rb2d.MovePosition(movePosition);

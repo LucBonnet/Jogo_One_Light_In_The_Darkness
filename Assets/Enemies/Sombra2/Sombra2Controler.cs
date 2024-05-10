@@ -5,6 +5,7 @@ using UnityEngine;
 public class Sombra2Controler : MonoBehaviour
 {
     public float speed = 2f;
+    private float initialSpeed;
     private GameObject Player;
     private SpriteRenderer spr;
     private Animator anim;
@@ -23,6 +24,7 @@ public class Sombra2Controler : MonoBehaviour
         spr = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         initialPosition = transform.position;
+        initialSpeed = speed;
     }
 
     public void StartDamage() {
@@ -33,6 +35,7 @@ public class Sombra2Controler : MonoBehaviour
     public void StopDamage() {
         damage = false;
         life = initialLife;
+        speed = speed = initialSpeed;;
     }
 
     // Update is called once per frame

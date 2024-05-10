@@ -6,6 +6,7 @@ public class SombraControler : MonoBehaviour
 {
 
     public float speed = 2f;
+    private float initialSpeed;
     private GameObject Player;
     private SpriteRenderer spr;
 
@@ -25,6 +26,7 @@ public class SombraControler : MonoBehaviour
         Player = GameObject.FindGameObjectWithTag("Player"); 
         spr = GetComponent<SpriteRenderer>();
         initialPosition = transform.position;
+        initialSpeed = speed;
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
@@ -46,6 +48,7 @@ public class SombraControler : MonoBehaviour
     public void StopDamage() {
         damage = false;
         life = initialLife;
+        speed = initialSpeed;
     }
 
     // Update is called once per frame
