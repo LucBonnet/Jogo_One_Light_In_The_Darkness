@@ -28,19 +28,23 @@ public class jogador : MonoBehaviour
     void Start()
     {
         // Obtém a referência ao script do jogador
-
         anime = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
     }
 
+    private void OnTriggerStay2D(Collider2D other) {
+        Debug.Log(other.name);
+    }
+
     void OnTriggerEnter2D(Collider2D hitinfo) {
-        if(hitinfo.CompareTag("sombraI")) {
+        
+        if(hitinfo.CompareTag("sombraI") || hitinfo.CompareTag("sombraII")) {
             hitinfo.SendMessage("StartDamage", 0f, SendMessageOptions.RequireReceiver);
         }
     }
 
     void OnTriggerExit2D(Collider2D hitinfo) {
-        if(hitinfo.CompareTag("sombraI")) {
+        if(hitinfo.CompareTag("sombraI") || hitinfo.CompareTag("sombraII")) {
             hitinfo.SendMessage("StopDamage", 0f, SendMessageOptions.RequireReceiver);
         }
     }
