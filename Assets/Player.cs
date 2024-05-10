@@ -60,6 +60,7 @@ public class jogador : MonoBehaviour
 
         if(Input.GetKeyDown(camAttack) && hasCam > 0) {
             cam.SetActive(true);
+            cam.SendMessage("SetCamType", hasCam, SendMessageOptions.RequireReceiver);
         }
     }
 
