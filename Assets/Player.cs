@@ -35,10 +35,6 @@ public class jogador : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
     }
 
-    private void OnTriggerStay2D(Collider2D other) {
-        Debug.Log(other.name);
-    }
-
     void OnTriggerEnter2D(Collider2D hitinfo) {
         if(hitinfo.CompareTag("sombraI") || hitinfo.CompareTag("sombraII") || hitinfo.CompareTag("sombraIII")) {
             hitinfo.SendMessage("StartDamage", 0f, SendMessageOptions.RequireReceiver);

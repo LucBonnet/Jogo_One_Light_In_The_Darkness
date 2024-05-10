@@ -10,9 +10,11 @@ public class Sombra3Controler : MonoBehaviour
     private Animator anim;
     private Vector3 initialPosition;
     public float visao = 7f;
-    public static float life = 100;
+    public float life = 100;
     private bool damage = false;
-    private float initialLife = life;
+    private float initialLife;
+    private float blockedLife;
+    private float currentLife;  
     private float initialSpeed;
     private float timerDamage = 0.0f;
     private float waitTimeDamage = 0.6f;
@@ -25,17 +27,24 @@ public class Sombra3Controler : MonoBehaviour
         anim = GetComponent<Animator>();
         initialPosition = transform.position;
         initialSpeed = speed;
+        initialLife = life;
+        currentLife = initialLife;
+        blockedLife = initialLife;
     }
 
     public void StartDamage() {
         damage = true;
-        Debug.Log(life);
     }
 
     public void StopDamage() {
         damage = false;
         life = initialLife;
         speed = initialSpeed;
+    }
+
+    public void TakeDamage(float d) {
+        blockedLife = currentLife - d;
+        life = blockedLife;
     }
 
     // Update is called once per frame

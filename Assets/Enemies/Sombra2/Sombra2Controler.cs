@@ -11,9 +11,11 @@ public class Sombra2Controler : MonoBehaviour
     private Animator anim;
     private Vector3 initialPosition;
     public float visao = 7f;
-    public static float life = 30;
+    private float currentLife;
+    public float life = 30;
     private bool damage = false;
-    private float initialLife = life;
+    private float initialLife;
+    private float blockedLife;
     private float timerDamage = 0.0f;
     private float waitTimeDamage = 0.6f;
 
@@ -25,17 +27,25 @@ public class Sombra2Controler : MonoBehaviour
         anim = GetComponent<Animator>();
         initialPosition = transform.position;
         initialSpeed = speed;
+        initialLife = life;
+        currentLife = initialLife;
+        blockedLife = initialLife;
     }
 
     public void StartDamage() {
         damage = true;
-        Debug.Log(life);
     }
 
     public void StopDamage() {
         damage = false;
-        life = initialLife;
-        speed = speed = initialSpeed;;
+        currentLife = life;
+        life = blockedLife;
+        speed = speed = initialSpeed;
+    }
+
+    public void TakeDamage(float d) {
+        blockedLife = currentLife - d;
+        life = blockedLife;
     }
 
     // Update is called once per frame
@@ -80,6 +90,8 @@ public class Sombra2Controler : MonoBehaviour
                 }
             }
         }
+
+        Debug.Log(life);
 
         
         spr.material.color = new Color(1f, 1f, 1f, Mathf.Max(life*1f/initialLife, 0.3f));

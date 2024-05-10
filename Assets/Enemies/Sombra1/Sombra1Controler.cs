@@ -13,10 +13,11 @@ public class SombraControler : MonoBehaviour
     private bool attacking;
     private Vector3 initialPosition;
 
-    public static int life = 10;
+    public float life = 10;
     private bool damage = false;
-    private int initialLife = life;
-
+    private float initialLife;
+    private float blockedLife;
+    private float currentLife;
     private float timerDamage = 0.0f;
     private float waitTimeDamage = 0.6f;
 
@@ -27,6 +28,9 @@ public class SombraControler : MonoBehaviour
         spr = GetComponent<SpriteRenderer>();
         initialPosition = transform.position;
         initialSpeed = speed;
+        initialLife = life;
+        currentLife = initialLife;
+        blockedLife = initialLife;
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
@@ -49,6 +53,11 @@ public class SombraControler : MonoBehaviour
         damage = false;
         life = initialLife;
         speed = initialSpeed;
+    }
+
+    public void TakeDamage(float d) {
+        blockedLife = currentLife - d;
+        life = blockedLife;
     }
 
     // Update is called once per frame
@@ -83,6 +92,6 @@ public class SombraControler : MonoBehaviour
             }
         }
         
-        spr.material.color = new Color(1f, 1f, 1f, Mathf.Max((float) ((float)life/10), 0.1f));
+        spr.material.color = new Color(1f, 1f, 1f, Mathf.Max(life*1f/initialLife, 0.1f));
     }
 }

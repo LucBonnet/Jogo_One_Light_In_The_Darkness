@@ -31,8 +31,6 @@ public class CameraController : MonoBehaviour
             if(cMinX < boundMinX) boundMinX = cMinX;
             if(cMaxX > boundMaxX) boundMaxX = cMaxX;
         }
-    	Debug.Log("Final: " + boundMinY + ", " + boundMaxY);
-    	Debug.Log("Final: " + boundMinX + ", " + boundMaxX);
     }
 
     // Update is called once per frame
