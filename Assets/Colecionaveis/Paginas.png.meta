@@ -1,0 +1,684 @@
+fileFormatVersion: 2
+guid: e5ac6bc8de82a2c4b9b855b1e51106f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7617926932084773723
+    second: Paginas_0
+  - first:
+      213: 2481131163914586162
+    second: Paginas_1
+  - first:
+      213: -6144389922184524067
+    second: Paginas_2
+  - first:
+      213: 3432528522203646925
+    second: Paginas_3
+  - first:
+      213: -2030223856262402734
+    second: Paginas_4
+  - first:
+      213: 397498335986445671
+    second: Paginas_5
+  - first:
+      213: -8193633349400463856
+    second: Paginas_6
+  - first:
+      213: 8438525156336506989
+    second: Paginas_7
+  - first:
+      213: -2688480540609443464
+    second: Paginas_8
+  - first:
+      213: -991270492493536667
+    second: Paginas_9
+  - first:
+      213: 4371100042517314000
+    second: Paginas_10
+  - first:
+      213: -8143544662991398238
+    second: Paginas_11
+  - first:
+      213: -3682016753208865644
+    second: Paginas_12
+  - first:
+      213: -8968232980409877236
+    second: Paginas_13
+  - first:
+      213: 6982298231112278566
+    second: Paginas_14
+  - first:
+      213: -6035876265305695986
+    second: Paginas_15
+  - first:
+      213: -2274225253026740129
+    second: Paginas_16
+  - first:
+      213: 6529701435586414742
+    second: Paginas_17
+  - first:
+      213: -9202640438767709231
+    second: Paginas_18
+  - first:
+      213: 5313623644511679460
+    second: Paginas_19
+  - first:
+      213: -3040978438031088983
+    second: Paginas_20
+  - first:
+      213: 2001295912240711751
+    second: Paginas_21
+  - first:
+      213: 7564668186853290821
+    second: Paginas_22
+  - first:
+      213: 6944183342865034322
+    second: Paginas_23
+  - first:
+      213: 4846333096923912773
+    second: Paginas_24
+  - first:
+      213: -5323816035503572298
+    second: Paginas_25
+  - first:
+      213: -7523594362975764825
+    second: Paginas_26
+  - first:
+      213: 7485156533278046079
+    second: Paginas_27
+  - first:
+      213: -8841200973651385119
+    second: Paginas_28
+  - first:
+      213: -8316573988710297765
+    second: Paginas_29
+  - first:
+      213: 4020978040691007725
+    second: Paginas_30
+  - first:
+      213: -201528334218026543
+    second: Paginas_31
+  - first:
+      213: 5709458826748161088
+    second: Paginas_32
+  - first:
+      213: -8197394757242542819
+    second: Paginas_33
+  - first:
+      213: -1858483531462824263
+    second: Paginas_34
+  - first:
+      213: 5882632859934687786
+    second: Paginas_35
+  - first:
+      213: 1222444085762038931
+    second: Paginas_36
+  - first:
+      213: -291454468860206528
+    second: Paginas_37
+  - first:
+      213: 4906912907211320764
+    second: Paginas_38
+  - first:
+      213: -4188493050701488526
+    second: Paginas_39
+  - first:
+      213: 3193615670752826616
+    second: Paginas_40
+  - first:
+      213: -4481670618431308102
+    second: Paginas_41
+  - first:
+      213: -831174701425762411
+    second: Paginas_42
+  - first:
+      213: 2960944380792539563
+    second: Paginas_43
+  - first:
+      213: 7843666633866697938
+    second: Paginas_44
+  - first:
+      213: -5260575261699040711
+    second: Paginas_45
+  - first:
+      213: -3689799724266431160
+    second: Paginas_46
+  - first:
+      213: 378661771843545066
+    second: Paginas_47
+  - first:
+      213: -3902640426378084822
+    second: Paginas_48
+  - first:
+      213: -325450178451155412
+    second: Paginas_49
+  - first:
+      213: -5898775287895344805
+    second: Paginas_50
+  - first:
+      213: -2577818051290386907
+    second: Paginas_51
+  - first:
+      213: -2373714087984697458
+    second: Paginas_52
+  - first:
+      213: 6492643866061470933
+    second: Paginas_53
+  - first:
+      213: 5313222055186624597
+    second: Paginas_54
+  - first:
+      213: 8902830622129684749
+    second: Paginas_55
+  - first:
+      213: 173415707655729893
+    second: Paginas_56
+  - first:
+      213: -6899464688169266675
+    second: Paginas_57
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Paginas_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1478
+        width: 486
+        height: 567
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aca43811dfa74690800000000000000
+      internalID: -7617926932084773723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paginas_1
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1478
+        width: 486
+        height: 567
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238c742e5afbe6220800000000000000
+      internalID: 2481131163914586162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paginas_2
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1478
+        width: 486
+        height: 567
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde83be8bedbabaa0800000000000000
+      internalID: -6144389922184524067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paginas_3
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 1477
+        width: 486
+        height: 567
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb485f218ac2af20800000000000000
+      internalID: 3432528522203646925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paginas_4
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 898
+        width: 486
+        height: 567
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25da4f8c82233d3e0800000000000000
+      internalID: -2030223856262402734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paginas_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 898
+        width: 486
+        height: 567
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76de74b61a2348500800000000000000
+      internalID: 397498335986445671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paginas_6
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 898
+        width: 486
+        height: 567
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016f03561ed5a4e80800000000000000
+      internalID: -8193633349400463856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paginas_7
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 897
+        width: 486
+        height: 567
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6892a3abe9ab1570800000000000000
+      internalID: 8438525156336506989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paginas_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 325
+        width: 486
+        height: 567
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8798c67413990bad0800000000000000
+      internalID: -2688480540609443464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paginas_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 325
+        width: 486
+        height: 567
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562a8923dbc4e32f0800000000000000
+      internalID: -991270492493536667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paginas_10
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 325
+        width: 486
+        height: 567
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d970ff545449ac30800000000000000
+      internalID: 4371100042517314000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paginas_11
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 324
+        width: 486
+        height: 567
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa9edd76415cfe80800000000000000
+      internalID: -8143544662991398238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Paginas_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 486
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49cc2f76549d6ecc0800000000000000
+      internalID: -3682016753208865644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a2b70bfa5f467a94989014a7900e5ccf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Paginas_0: -7617926932084773723
+      Paginas_1: 2481131163914586162
+      Paginas_10: 4371100042517314000
+      Paginas_11: -8143544662991398238
+      Paginas_12: -3682016753208865644
+      Paginas_13: -8968232980409877236
+      Paginas_14: 6982298231112278566
+      Paginas_15: -6035876265305695986
+      Paginas_16: -2274225253026740129
+      Paginas_17: 6529701435586414742
+      Paginas_18: -9202640438767709231
+      Paginas_19: 5313623644511679460
+      Paginas_2: -6144389922184524067
+      Paginas_20: -3040978438031088983
+      Paginas_21: 2001295912240711751
+      Paginas_22: 7564668186853290821
+      Paginas_23: 6944183342865034322
+      Paginas_24: 4846333096923912773
+      Paginas_25: -5323816035503572298
+      Paginas_26: -7523594362975764825
+      Paginas_27: 7485156533278046079
+      Paginas_28: -8841200973651385119
+      Paginas_29: -8316573988710297765
+      Paginas_3: 3432528522203646925
+      Paginas_30: 4020978040691007725
+      Paginas_31: -201528334218026543
+      Paginas_32: 5709458826748161088
+      Paginas_33: -8197394757242542819
+      Paginas_34: -1858483531462824263
+      Paginas_35: 5882632859934687786
+      Paginas_36: 1222444085762038931
+      Paginas_37: -291454468860206528
+      Paginas_38: 4906912907211320764
+      Paginas_39: -4188493050701488526
+      Paginas_4: -2030223856262402734
+      Paginas_40: 3193615670752826616
+      Paginas_41: -4481670618431308102
+      Paginas_42: -831174701425762411
+      Paginas_43: 2960944380792539563
+      Paginas_44: 7843666633866697938
+      Paginas_45: -5260575261699040711
+      Paginas_46: -3689799724266431160
+      Paginas_47: 378661771843545066
+      Paginas_48: -3902640426378084822
+      Paginas_49: -325450178451155412
+      Paginas_5: 397498335986445671
+      Paginas_50: -5898775287895344805
+      Paginas_51: -2577818051290386907
+      Paginas_52: -2373714087984697458
+      Paginas_53: 6492643866061470933
+      Paginas_54: 5313222055186624597
+      Paginas_55: 8902830622129684749
+      Paginas_56: 173415707655729893
+      Paginas_57: -6899464688169266675
+      Paginas_6: -8193633349400463856
+      Paginas_7: 8438525156336506989
+      Paginas_8: -2688480540609443464
+      Paginas_9: -991270492493536667
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
