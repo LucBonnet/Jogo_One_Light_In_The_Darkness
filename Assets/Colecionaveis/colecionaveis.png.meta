@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: c72941e340a2dea41a6f5e39539f21d1
+guid: 667da95fe61abc841981570165c0c11c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1450827402726552412
-    second: pagina_0
+      213: -1138607505900937211
+    second: colecionaveis_0
+  - first:
+      213: -4540113683566427840
+    second: colecionaveis_1
+  - first:
+      213: 3722755711139964387
+    second: colecionaveis_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -74,7 +80,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -165,22 +171,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pagina_0
+      name: colecionaveis_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 5
-        height: 7
+        x: 6
+        y: 4
+        width: 9
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c533be106df522410800000000000000
-      internalID: 1450827402726552412
+      spriteID: 5006e28818ad230f0800000000000000
+      internalID: -1138607505900937211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colecionaveis_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 5
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041022bc8a64ef0c0800000000000000
+      internalID: -4540113683566427840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colecionaveis_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 7
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5ed046892e9a330800000000000000
+      internalID: 3722755711139964387
       vertices: []
       indices: 
       edges: []
@@ -188,7 +236,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 5151c73575e208a45a3332faa7b194cc
     internalID: 0
     vertices: []
     indices: 
@@ -196,7 +244,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pagina_0: 1450827402726552412
+      colecionaveis_0: -1138607505900937211
+      colecionaveis_1: -4540113683566427840
+      colecionaveis_2: 3722755711139964387
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

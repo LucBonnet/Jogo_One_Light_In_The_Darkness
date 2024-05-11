@@ -9,7 +9,7 @@ public class Descer : MonoBehaviour
     public static bool descer = false;
     public KeyCode trocar = KeyCode.E;
     public Color corDoTexto = Color.red; // Defina a cor desejada aqui
-    public jogador player; // Referência ao script do jogador
+    public PlayerControl player; // Referência ao script do jogador
 
 
     // Start is called before the first frame update
@@ -18,7 +18,7 @@ public class Descer : MonoBehaviour
         GameObject play = GameObject.FindGameObjectWithTag("Player");
 
         // Obtém a referência ao script do jogador
-        player = play.GetComponent<jogador>();
+        player = play.GetComponent<PlayerControl>();
 
     }
     void OnTriggerEnter2D (Collider2D hitInfo) {     

@@ -8,9 +8,7 @@ public class Stamina : MonoBehaviour
     public float stamina =100;
     public float maxStamina = 100;
     public Image uiBar;
-    public jogador player; // Referência ao script do jogador
-    
-  
+    public PlayerControl player; // Referência ao script do jogador
 
     // Start is called before the first frame update
     void Start()

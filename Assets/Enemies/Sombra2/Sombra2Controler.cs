@@ -91,9 +91,6 @@ public class Sombra2Controler : MonoBehaviour
             }
         }
 
-        Debug.Log(life);
-
-        
         spr.material.color = new Color(1f, 1f, 1f, Mathf.Max(life*1f/initialLife, 0.3f));
     }
 }

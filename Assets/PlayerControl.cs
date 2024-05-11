@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class jogador : MonoBehaviour
+public class PlayerControl : MonoBehaviour
 {   
     public KeyCode moveUp = KeyCode.W;
     public KeyCode moveDown = KeyCode.S;
