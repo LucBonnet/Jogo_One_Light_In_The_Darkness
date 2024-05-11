@@ -1,0 +1,556 @@
+fileFormatVersion: 2
+guid: 48405b16665f66048ad36929e477e001
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7514658926057796861
+    second: invocando2_0
+  - first:
+      213: 8034090324315390270
+    second: invocando2_1
+  - first:
+      213: 4477220443782572329
+    second: invocando2_2
+  - first:
+      213: -4935666420632090873
+    second: invocando2_3
+  - first:
+      213: -6330962187340452026
+    second: invocando2_4
+  - first:
+      213: 4264801246578326652
+    second: invocando2_5
+  - first:
+      213: -1420188042436097705
+    second: invocando2_6
+  - first:
+      213: 3444120681877408466
+    second: invocando2_7
+  - first:
+      213: 529651025903883155
+    second: invocando2_8
+  - first:
+      213: 299184137091869133
+    second: invocando2_9
+  - first:
+      213: -409540205925864849
+    second: invocando2_10
+  - first:
+      213: 1773021301122375995
+    second: invocando2_11
+  - first:
+      213: 3312667126373922950
+    second: invocando2_12
+  - first:
+      213: -3603973085336657422
+    second: invocando2_13
+  - first:
+      213: 5663163071499299276
+    second: invocando2_14
+  - first:
+      213: -143269458665917713
+    second: invocando2_15
+  - first:
+      213: -3278153599859960181
+    second: invocando2_16
+  - first:
+      213: 4923365353510658244
+    second: invocando2_17
+  - first:
+      213: -632909267151382660
+    second: invocando2_18
+  - first:
+      213: -5361348369691327236
+    second: invocando2_19
+  - first:
+      213: 6752995103349505918
+    second: invocando2_20
+  - first:
+      213: -6736742723571506421
+    second: invocando2_21
+  - first:
+      213: -6361308793739816908
+    second: invocando2_22
+  - first:
+      213: -7259861637022797411
+    second: invocando2_23
+  - first:
+      213: 40638236728565848
+    second: invocando2_24
+  - first:
+      213: -7494472839675261320
+    second: invocando2_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: invocando2_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 126
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31c8326592de7f60800000000000000
+      internalID: 8034090324315390270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invocando2_3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 127
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707866c6a8df08bb0800000000000000
+      internalID: -4935666420632090873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invocando2_5
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 128
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7cb1fb432e9f2b30800000000000000
+      internalID: 4264801246578326652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invocando2_7
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 129
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da01ee2389fbcf20800000000000000
+      internalID: 3444120681877408466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invocando2_9
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 130
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9eac5336ae62400800000000000000
+      internalID: 299184137091869133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invocando2_11
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 131
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31a990ca790b9810800000000000000
+      internalID: 1773021301122375995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invocando2_13
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 132
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1a074d29d1cfdc0800000000000000
+      internalID: -3603973085336657422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invocando2_15
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 132
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe23e09bf21030ef0800000000000000
+      internalID: -143269458665917713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invocando2_17
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 18
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c0e77334be435440800000000000000
+      internalID: 4923365353510658244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invocando2_19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 17
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4cd6b301aa895b0800000000000000
+      internalID: -5361348369691327236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invocando2_21
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 16
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03a25a8f284282a0800000000000000
+      internalID: -6736742723571506421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invocando2_23
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 15
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9135c63e4acf3b90800000000000000
+      internalID: -7259861637022797411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invocando2_25
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 14
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ec754e8a84ef790800000000000000
+      internalID: -7494472839675261320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f120070e9fe178d4c8606ef10748ee65
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      invocando2_0: -7514658926057796861
+      invocando2_1: 8034090324315390270
+      invocando2_10: -409540205925864849
+      invocando2_11: 1773021301122375995
+      invocando2_12: 3312667126373922950
+      invocando2_13: -3603973085336657422
+      invocando2_14: 5663163071499299276
+      invocando2_15: -143269458665917713
+      invocando2_16: -3278153599859960181
+      invocando2_17: 4923365353510658244
+      invocando2_18: -632909267151382660
+      invocando2_19: -5361348369691327236
+      invocando2_2: 4477220443782572329
+      invocando2_20: 6752995103349505918
+      invocando2_21: -6736742723571506421
+      invocando2_22: -6361308793739816908
+      invocando2_23: -7259861637022797411
+      invocando2_24: 40638236728565848
+      invocando2_25: -7494472839675261320
+      invocando2_3: -4935666420632090873
+      invocando2_4: -6330962187340452026
+      invocando2_5: 4264801246578326652
+      invocando2_6: -1420188042436097705
+      invocando2_7: 3444120681877408466
+      invocando2_8: 529651025903883155
+      invocando2_9: 299184137091869133
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
