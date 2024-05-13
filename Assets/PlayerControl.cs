@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerControl : MonoBehaviour
+public class PlayerControl : MonoBehaviour, IDataPersistence
 {   
     public KeyCode moveUp = KeyCode.W;
     public KeyCode moveDown = KeyCode.S;
@@ -114,4 +114,12 @@ public class PlayerControl : MonoBehaviour
             }
         }
     }
+
+    public void LoadData(GameData data) {
+        transform.position = data.playerPosistion;
     }
+
+    public void SaveData(ref GameData data) {
+        data.playerPosistion = transform.position;
+    }
+}
