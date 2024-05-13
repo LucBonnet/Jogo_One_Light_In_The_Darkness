@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Stamina : MonoBehaviour
 {
-    public float stamina =100;
+    public float stamina = 100;
     public float maxStamina = 100;
     public Image uiBar;
     public PlayerControl player; // Referência ao script do jogador

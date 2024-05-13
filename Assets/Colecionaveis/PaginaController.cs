@@ -20,7 +20,6 @@ public class PaginaController : MonoBehaviour
 
     private bool paginaAberta = false;
 
-    // Start is called before the first frame update
     void Start()
     {
         iluminacao = GetComponent<Light2D>();
@@ -56,7 +55,6 @@ public class PaginaController : MonoBehaviour
         GameManager.ChangePause(false);
     }
 
-    // Update is called once per frame
     void Update()
     {
         time += Time.deltaTime;

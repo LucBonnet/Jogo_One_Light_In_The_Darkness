@@ -16,7 +16,6 @@ public class BossControl : MonoBehaviour
         return (float)Random.Range(500, 1000) / 100f;
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -37,7 +36,6 @@ public class BossControl : MonoBehaviour
         Instantiate(sombra, position, Quaternion.identity);
     }
 
-    // Update is called once per frame
     void Update()
     {
         time += Time.deltaTime;

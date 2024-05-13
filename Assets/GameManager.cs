@@ -5,9 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     private static bool paused;
-
-    private KeyCode pause = KeyCode.P;
-    // Start is called before the first frame update
+    
     void Start()
     {
         paused = false;
@@ -21,8 +19,6 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // if(Input.GetKeyDown(pause)) {
-        //     ChangePause(!paused);
-        // }
+
     }
 }
