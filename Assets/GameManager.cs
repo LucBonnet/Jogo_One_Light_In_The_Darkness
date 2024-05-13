@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+public class GameManager : MonoBehaviour, IDataPersistence
 {
     private static bool paused;
     
@@ -21,4 +22,14 @@ public class GameManager : MonoBehaviour
     {
 
     }
+
+    public void LoadData(GameData data) {
+        // SceneManager.LoadScene(data.sceneName);
+    }
+
+    public void SaveData(ref GameData data) {
+        // Scene scene = SceneManager.GetActiveScene();
+        // data.sceneName = scene.name;
+    }
+
 }

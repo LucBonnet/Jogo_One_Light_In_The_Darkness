@@ -117,9 +117,11 @@ public class PlayerControl : MonoBehaviour, IDataPersistence
 
     public void LoadData(GameData data) {
         transform.position = data.playerPosistion;
+        hasCam = data.playerHasCamera;
     }
 
     public void SaveData(ref GameData data) {
         data.playerPosistion = transform.position;
+        data.playerHasCamera = hasCam;
     }
 }

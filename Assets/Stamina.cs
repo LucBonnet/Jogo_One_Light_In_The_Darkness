@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Stamina : MonoBehaviour
+public class Stamina : MonoBehaviour, IDataPersistence
 {
     public float stamina = 100;
     public float maxStamina = 100;
@@ -34,5 +34,15 @@ public class Stamina : MonoBehaviour
         }
        
         uiBar.fillAmount = stamina / maxStamina;
+    }
+
+    public void LoadData(GameData data) {
+        stamina = data.stamina;
+        maxStamina = data.maxStamina;
+    }
+
+    public void SaveData(ref GameData data) {
+        data.stamina = stamina;
+        data.maxStamina = maxStamina;
     }
 }
