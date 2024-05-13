@@ -43,7 +43,9 @@ public class PlayerControl : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D hitinfo) {
         if(hitinfo.CompareTag("sombraI") || hitinfo.CompareTag("sombraII") || hitinfo.CompareTag("sombraIII")) {
-            hitinfo.SendMessage("StopDamage", 0f, SendMessageOptions.RequireReceiver);
+            if(hitinfo) {
+                hitinfo.SendMessage("StopDamage", 0f, SendMessageOptions.RequireReceiver);
+            }
         }
     }
 
