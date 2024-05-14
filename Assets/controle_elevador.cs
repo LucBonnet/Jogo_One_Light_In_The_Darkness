@@ -34,6 +34,8 @@ public class controle_elevador : MonoBehaviour
     void OnTriggerExit2D (Collider2D hitInfo) {      
             ativado = false;                       
     }
+
+    
     void OnGUI () {
         GUI.contentColor = corDoTexto;
         if(controle_elevador.ativado){
@@ -43,6 +45,7 @@ public class controle_elevador : MonoBehaviour
             }
            
             if (Input.GetKey(entrar)) {
+                GameManager.ChangePause(true);
                 andar = 50;
               GetComponent<SpriteRenderer>().sprite = novoSprite;
             }
@@ -74,6 +77,7 @@ public class controle_elevador : MonoBehaviour
             if (Input.GetKey(sair)) {
                 GetComponent<SpriteRenderer>().sprite = novoSprite6;
                 andar = 100;
+                GameManager.ChangePause(false);
             }
             if (Input.GetKey(aceitar)) {
                 if(andar == 0){

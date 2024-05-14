@@ -26,6 +26,8 @@ public class GameManager : MonoBehaviour, IDataPersistence
     }
 
     public void LoadData(GameData data) {
+        if(scene.name != "Elevador") return;
+
         if(scene.name != data.sceneName) {
             SceneManager.LoadScene(data.sceneName);
         }

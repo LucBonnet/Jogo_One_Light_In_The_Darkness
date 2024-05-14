@@ -6,19 +6,13 @@ using UnityEngine.SceneManagement;
 public class Elevador : MonoBehaviour
 {
    public GUISkin layout;
-    public static bool subir = false;
-    public static bool aberto = false;
-
-    public Color corDoTexto = Color.red; // Defina a cor desejada aqui
+    public bool subir = false;
+    public bool aberto = false;
+    public Color corDoTexto = Color.red;
     private Animator anime;
     private Collider2D colliderInimigo;
-    
-
-
     public KeyCode trocar = KeyCode.E;
-
-
-    // Start is called before the first frame update
+    
     void Start()
     {
        anime = GetComponent<Animator>();
@@ -63,7 +57,7 @@ public class Elevador : MonoBehaviour
     void OnGUI () {
         GUI.contentColor = corDoTexto;
         Scene scene = SceneManager.GetActiveScene();
-        if(Elevador.subir){
+        if(subir){
             GUI.Label(new Rect(Screen.width / 2 - 40 - 12, 220, 600, 600), "Aperte E para entrar");                    
             if(Input.GetKey(trocar)){               
                 PlayerAnimation("porta_elevador"); 
