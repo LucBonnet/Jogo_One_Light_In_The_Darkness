@@ -205,6 +205,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &88486714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 88486716}
+  - component: {fileID: 88486715}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &88486715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88486714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f8bc164dbfa45346bcc5ea287012b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &88486716
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88486714}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.685282, y: -7.9501624, z: -3.9931293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1714327597}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &97376765
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,7 +775,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595dd45b699fcb042bad268c31bbca14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sombras: []
 --- !u!60 &152189150
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1450,8 +1494,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4edecba1697298c489fc1bcd2c309c19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stamina: 100
-  maxStamina: 100
   uiBar: {fileID: 290687212}
   player: {fileID: 502241690}
 --- !u!114 &290687212
@@ -1942,7 +1984,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595dd45b699fcb042bad268c31bbca14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sombras: []
 --- !u!61 &357450251
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2600,7 +2641,6 @@ MonoBehaviour:
   camAttack: 32
   run: 304
   boundX: 0
-  stamina: {fileID: 290687211}
   cancado: 0
   cam: {fileID: 134431832}
   hasCam: 0
@@ -5279,7 +5319,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595dd45b699fcb042bad268c31bbca14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sombras: []
 --- !u!61 &1069475520
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7391,6 +7430,51 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 35.17231, y: 0.04263258}
   m_EdgeRadius: 0
+--- !u!1 &1714327596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1714327597}
+  - component: {fileID: 1714327598}
+  m_Layer: 0
+  m_Name: DataPersistence
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1714327597
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714327596}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 88486716}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1714327598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714327596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea573bad03fb11e42ab4f0246c252ca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileName: data.game
 --- !u!1 &1723361200
 GameObject:
   m_ObjectHideFlags: 0
@@ -8554,3 +8638,4 @@ SceneRoots:
   - {fileID: 1220959614}
   - {fileID: 819009833}
   - {fileID: 502241693}
+  - {fileID: 88486716}

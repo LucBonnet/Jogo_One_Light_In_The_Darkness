@@ -424,7 +424,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595dd45b699fcb042bad268c31bbca14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sombras: []
 --- !u!61 &67756387
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1328,7 +1327,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595dd45b699fcb042bad268c31bbca14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sombras: []
 --- !u!60 &314803329
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1829,7 +1827,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595dd45b699fcb042bad268c31bbca14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sombras: []
 --- !u!60 &399641912
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2252,6 +2249,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &510802342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 510802344}
+  - component: {fileID: 510802343}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &510802343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510802342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f8bc164dbfa45346bcc5ea287012b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &510802344
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510802342}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.685282, y: -7.9501624, z: -3.9931293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 797828513}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &560360546
 GameObject:
   m_ObjectHideFlags: 0
@@ -2957,7 +2999,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595dd45b699fcb042bad268c31bbca14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sombras: []
 --- !u!60 &723301312
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3059,6 +3100,51 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3.234249, y: 0.25927162}
   m_EdgeRadius: 0
+--- !u!1 &797828512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 797828513}
+  - component: {fileID: 797828514}
+  m_Layer: 0
+  m_Name: DataPersistence
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &797828513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797828512}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 510802344}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &797828514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797828512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea573bad03fb11e42ab4f0246c252ca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileName: data.game
 --- !u!1 &805248309
 GameObject:
   m_ObjectHideFlags: 0
@@ -3322,7 +3408,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595dd45b699fcb042bad268c31bbca14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sombras: []
 --- !u!60 &862276191
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3656,7 +3741,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595dd45b699fcb042bad268c31bbca14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sombras: []
 --- !u!60 &1006111679
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3876,7 +3960,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595dd45b699fcb042bad268c31bbca14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sombras: []
 --- !u!60 &1041264717
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4075,7 +4158,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595dd45b699fcb042bad268c31bbca14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sombras: []
 --- !u!60 &1104778302
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4307,7 +4389,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595dd45b699fcb042bad268c31bbca14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sombras: []
 --- !u!60 &1105488793
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5149,7 +5230,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595dd45b699fcb042bad268c31bbca14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sombras: []
 --- !u!60 &1316694991
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5647,7 +5727,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595dd45b699fcb042bad268c31bbca14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sombras: []
 --- !u!60 &1366227194
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6253,7 +6332,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595dd45b699fcb042bad268c31bbca14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sombras: []
 --- !u!60 &1541968201
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6811,7 +6889,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595dd45b699fcb042bad268c31bbca14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sombras: []
 --- !u!60 &1561990538
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -7027,8 +7104,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4edecba1697298c489fc1bcd2c309c19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stamina: 100
-  maxStamina: 100
   uiBar: {fileID: 1593780917}
   player: {fileID: 2010475675}
 --- !u!114 &1593780917
@@ -7243,7 +7318,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595dd45b699fcb042bad268c31bbca14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sombras: []
 --- !u!60 &1608256671
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -7767,7 +7841,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595dd45b699fcb042bad268c31bbca14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sombras: []
 --- !u!60 &1780014334
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -8112,7 +8185,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595dd45b699fcb042bad268c31bbca14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sombras: []
 --- !u!60 &1853403717
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -8927,7 +8999,6 @@ MonoBehaviour:
   camAttack: 32
   run: 304
   boundX: 0
-  stamina: {fileID: 1593780916}
   cancado: 0
   cam: {fileID: 1714179045}
   hasCam: 0
@@ -9211,7 +9282,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595dd45b699fcb042bad268c31bbca14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sombras: []
 --- !u!60 &2040565344
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -9410,7 +9480,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595dd45b699fcb042bad268c31bbca14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sombras: []
 --- !u!60 &2108331781
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -9519,3 +9588,4 @@ SceneRoots:
   - {fileID: 1894968043}
   - {fileID: 2010475678}
   - {fileID: 195924727}
+  - {fileID: 510802344}
