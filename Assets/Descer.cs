@@ -45,22 +45,28 @@ public class Descer : MonoBehaviour
             
             if(Input.GetKey(trocar)){
                 if(scene.name == "Terreo" || scene.name == "Terreo 1"){
+                    DataPersistenceManager.instance.SaveGame();
                     SceneManager.LoadScene("Entrada");
                 } 
                 if(scene.name == "1Andar"){
+                    DataPersistenceManager.instance.SaveGame();
                     SceneManager.LoadScene("Terreo 1");
                     // player.transform.position = new Vector3(1.66f, 0.02f,0f);
                 }   
                 if(scene.name == "2Andar"){
+                    DataPersistenceManager.instance.SaveGame();
                     SceneManager.LoadScene("1Andar");
                 }
                 if(scene.name == "3Andar"){
+                    DataPersistenceManager.instance.SaveGame();
                     SceneManager.LoadScene("2Andar");
                 } 
                 if(scene.name == "4Andar"){
+                    DataPersistenceManager.instance.SaveGame();                
                     SceneManager.LoadScene("3Andar");
                 }   
                 if(scene.name == "5Andar"){
+                    DataPersistenceManager.instance.SaveGame();
                     SceneManager.LoadScene("4Andar");
                 }     
             }

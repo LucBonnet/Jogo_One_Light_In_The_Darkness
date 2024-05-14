@@ -16,7 +16,6 @@ public class PlayerControl : MonoBehaviour, IDataPersistence
     private Vector2 moveDirection;
     private Animator anime;
     int count = 0;
-    public Stamina stamina; // Referência ao script do jogador
     public bool cancado;
     public GameObject cam;
     public int hasCam = 1; // 0 - não tem camera, 1 - camera 1, 2 - camera 2
@@ -71,12 +70,12 @@ public class PlayerControl : MonoBehaviour, IDataPersistence
             if(Input.GetKey(run) && !cancado){
                 speed = 5f;
                 anime.speed = 1.6f;
-                stamina.stamina = stamina.stamina -1f;
+                Stamina.stamina -= 1f;
             }
               
         else{
-            stamina.stamina = stamina.stamina +0.1f;
-            speed =3f; 
+            Stamina.stamina += 0.1f;
+            speed = 3f; 
             anime.speed = 1.0f; 
         }
         Vector2 movePosition = (speed * Time.fixedDeltaTime * moveDirection.normalized) + rb2d.position;
@@ -118,10 +117,16 @@ public class PlayerControl : MonoBehaviour, IDataPersistence
     public void LoadData(GameData data) {
         transform.position = data.playerPosistion;
         hasCam = data.playerHasCamera;
+        Stamina.stamina = data.stamina;
+        Stamina.maxStamina = data.maxStamina;
     }
 
     public void SaveData(ref GameData data) {
+        Debug.Log("Stamina: " + Stamina.stamina + "\nMaxStamina: " + Stamina.maxStamina);
+        
         data.playerPosistion = transform.position;
         data.playerHasCamera = hasCam;
+        data.stamina = Stamina.stamina;
+        data.maxStamina = Stamina.maxStamina;
     }
 }

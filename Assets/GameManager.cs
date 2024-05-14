@@ -6,10 +6,12 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour, IDataPersistence
 {
     private static bool paused;
+    private Scene scene;
     
     void Start()
     {
         paused = false;
+        scene = SceneManager.GetActiveScene();
     }
 
     public static void ChangePause(bool p) {
@@ -24,12 +26,13 @@ public class GameManager : MonoBehaviour, IDataPersistence
     }
 
     public void LoadData(GameData data) {
-        // SceneManager.LoadScene(data.sceneName);
+        if(scene.name != data.sceneName) {
+            SceneManager.LoadScene(data.sceneName);
+        }
     }
 
     public void SaveData(ref GameData data) {
-        // Scene scene = SceneManager.GetActiveScene();
-        // data.sceneName = scene.name;
+        data.sceneName = scene.name;
     }
 
 }

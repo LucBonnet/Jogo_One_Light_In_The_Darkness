@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Stamina : MonoBehaviour, IDataPersistence
+public class Stamina : MonoBehaviour
 {
-    public float stamina = 100;
-    public float maxStamina = 100;
+    public static float stamina = 100;
+    public static float maxStamina = 100;
     public Image uiBar;
     public PlayerControl player; // Referência ao script do jogador
 
@@ -34,15 +34,5 @@ public class Stamina : MonoBehaviour, IDataPersistence
         }
        
         uiBar.fillAmount = stamina / maxStamina;
-    }
-
-    public void LoadData(GameData data) {
-        stamina = data.stamina;
-        maxStamina = data.maxStamina;
-    }
-
-    public void SaveData(ref GameData data) {
-        data.stamina = stamina;
-        data.maxStamina = maxStamina;
     }
 }

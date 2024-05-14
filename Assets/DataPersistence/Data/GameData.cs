@@ -11,6 +11,7 @@ public class GameData
     public float stamina;
     public float maxStamina;
     public int playerHasCamera;
+    public SerializableDictionary<string, bool> energeticosColetados;
 
     public GameData() {
         playerPosistion = Vector3.zero;
@@ -18,5 +19,6 @@ public class GameData
         stamina = 0f;
         maxStamina = 0f;
         playerHasCamera = 0;
+        energeticosColetados = new SerializableDictionary<string, bool>();
     } 
 }
