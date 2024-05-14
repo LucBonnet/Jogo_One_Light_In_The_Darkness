@@ -3,7 +3,7 @@ guid: 938e0370363f94048b80791ab2bb193d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -340,6 +340,636 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: terreo_11
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a341b2046d9464b89ab5351f4f0775
+      internalID: 562098864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_12
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0756673e8b748c940b1f39d3ae793955
+      internalID: -1858017006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_13
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52e6847bca79c34b83f98f872d2d26a
+      internalID: -72957334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_14
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9987400a251e67044952be8d738f6e78
+      internalID: -340970620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_15
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9dbfaf1abda784ba42742f58bba0a2
+      internalID: 589816665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_16
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5f3706c5b20b5418695804fc0bf864
+      internalID: 558546711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_17
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7130c7491b0a1140a51b1d24b66a4e2
+      internalID: -1218435069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_18
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194f278b76d50164e899c9a2a702183f
+      internalID: -11210058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_19
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5abc489c4d7f5349930aa8d1eed6596
+      internalID: -940540482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_20
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66fae9ab08229e47a84b9c10f0bcab9
+      internalID: -111241241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_21
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5faf187a761e164fa8dc6dbab0c5202
+      internalID: 1466169341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_22
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c6a049b463c834dada8070b1ead796
+      internalID: -1807766346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_23
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56193c68567ead4cb300cd8a3a762a5
+      internalID: 757269165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_24
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e36e0df795f0664ea7d50a8ca05b307
+      internalID: -1042151347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_25
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e011ed770f9c0b41be9975e72153e3e
+      internalID: -1264108966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_26
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b28bd7f6150b8d49a33d54783df6863
+      internalID: -344580971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_27
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0208a2329a33cc446af73b3281a2cdb3
+      internalID: 679039663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_28
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33d23d7dc076bb44b26cbc774b9d7c6
+      internalID: 75014242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_29
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366b593391a078641944f40ea46702d0
+      internalID: -533218719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_30
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 9
+      pivot: {x: 0.4999981, y: 0.46900317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08bd695f07d21346b144fcf39a0675a
+      internalID: 1971112689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_31
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a0bc894a6e48344a62b17f7a451f46
+      internalID: -796384185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_32
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5580fd9238abd7b4b8accb62f42e9083
+      internalID: -2121714206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_33
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16daf16edee8af41941a39fabba623c
+      internalID: -613186398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_34
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a82d8071e967e842a3c0def18330d89
+      internalID: 233996943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_35
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56261c097e7c1ef459135494b575ed04
+      internalID: -960735612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_36
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8dacb76a93fc4449a022a584fc2807
+      internalID: 851602694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_37
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1058aaa554ee39f4da8b280306b158b3
+      internalID: 1111919393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_38
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d451ba01e850f2546a01b67f546e78b6
+      internalID: 1140416572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_39
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4d8b79bf88baa488e2d7097f614a14
+      internalID: 748455500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terreo_40
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1769
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8815cc56b597e49a49538189218e47
+      internalID: 868471093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -354,9 +984,39 @@ TextureImporter:
       terreo_0: 1624333618
       terreo_1: -1914585158
       terreo_10: -1200872201
+      terreo_11: 562098864
+      terreo_12: -1858017006
+      terreo_13: -72957334
+      terreo_14: -340970620
+      terreo_15: 589816665
+      terreo_16: 558546711
+      terreo_17: -1218435069
+      terreo_18: -11210058
+      terreo_19: -940540482
       terreo_2: 680898469
+      terreo_20: -111241241
+      terreo_21: 1466169341
+      terreo_22: -1807766346
+      terreo_23: 757269165
+      terreo_24: -1042151347
+      terreo_25: -1264108966
+      terreo_26: -344580971
+      terreo_27: 679039663
+      terreo_28: 75014242
+      terreo_29: -533218719
       terreo_3: -179635195
+      terreo_30: 1971112689
+      terreo_31: -796384185
+      terreo_32: -2121714206
+      terreo_33: -613186398
+      terreo_34: 233996943
+      terreo_35: -960735612
+      terreo_36: 851602694
+      terreo_37: 1111919393
+      terreo_38: 1140416572
+      terreo_39: 748455500
       terreo_4: 640816603
+      terreo_40: 868471093
       terreo_5: 312275974
       terreo_6: 156573155
       terreo_7: -1822090332

@@ -325,6 +325,510 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: elevador_9
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1385
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6b4a934b900014a82fce6803f8474e
+      internalID: 474669763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevador_10
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 879
+        width: 164
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf5cf4a8d033e048b1bfda762ba0691
+      internalID: 937756452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevador_11
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1500
+        width: 8
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b844ba18bba02d94597229e04f0640f1
+      internalID: -280208119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevador_12
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1500
+        width: 8
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48caae305aba8840a1c5f5d362ea2d3
+      internalID: 662391573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevador_13
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1500
+        width: 8
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1639b198eda43418dcc507db2c1f63
+      internalID: 699836364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevador_14
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1500
+        width: 8
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde8702418b1c8645857e71a5ac10d5a
+      internalID: 1294126585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevador_15
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1500
+        width: 8
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8ca011ac4144d4091a8e492d03a859
+      internalID: 2139090283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevador_16
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1500
+        width: 8
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdf20d77037d6743a6af9515d0c77ea
+      internalID: -441671230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevador_17
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1500
+        width: 8
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b7a212c783d6348bb92ab35491ca84
+      internalID: -145467136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevador_18
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1500
+        width: 8
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8765a6d9c593145b1fa0861fed6c5a
+      internalID: 1075722300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevador_19
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1500
+        width: 8
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f83c291eb5ae00498b340812a188199
+      internalID: 1610666996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevador_20
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1500
+        width: 8
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3cac1cf5037534a8bf2f60518ca9c8
+      internalID: 1654478574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevador_21
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1500
+        width: 8
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca0f92827cfae942ac0b11050966f95
+      internalID: 1266290008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevador_22
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1500
+        width: 8
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb9916850b86274bb25009081e4d362
+      internalID: 1634970759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevador_23
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1500
+        width: 8
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e6ee9098174ed45b21b2fbe9a3948f
+      internalID: -1640922091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevador_24
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1500
+        width: 8
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25edf7d51abeab4cbbd72c7e294a039
+      internalID: -835451148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevador_25
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1500
+        width: 8
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f20fd42fa633144b7cbc18a3fbe7a7
+      internalID: -2062642670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevador_26
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1500
+        width: 8
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2123a9d7797d145907f9d57b0aa023
+      internalID: -664663568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevador_27
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1500
+        width: 8
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b0124df6b3fe242b455784354e66c2
+      internalID: -1926395639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevador_28
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1500
+        width: 8
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e30ad72a2bec04ab1cf811e815c799
+      internalID: -2078741496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevador_29
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1500
+        width: 8
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5c7181a085aa24c867e196b5643fed
+      internalID: 187714674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevador_30
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1500
+        width: 8
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724971876d74f194f9dd3843dec225e7
+      internalID: -1670541005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevador_31
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1500
+        width: 8
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5333da90afe7a4fb5903150577d534
+      internalID: 1731375223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevador_32
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1331
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1427b8f55ec4acf4e90a41242498a3d3
+      internalID: 1477978588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -338,13 +842,37 @@ TextureImporter:
     nameFileIdTable:
       elevador_0: -6033319838305256496
       elevador_1: 5744621067553014447
+      elevador_10: 937756452
+      elevador_11: -280208119
+      elevador_12: 662391573
+      elevador_13: 699836364
+      elevador_14: 1294126585
+      elevador_15: 2139090283
+      elevador_16: -441671230
+      elevador_17: -145467136
+      elevador_18: 1075722300
+      elevador_19: 1610666996
       elevador_2: 7272567604482544290
+      elevador_20: 1654478574
+      elevador_21: 1266290008
+      elevador_22: 1634970759
+      elevador_23: -1640922091
+      elevador_24: -835451148
+      elevador_25: -2062642670
+      elevador_26: -664663568
+      elevador_27: -1926395639
+      elevador_28: -2078741496
+      elevador_29: 187714674
       elevador_3: 3734691878577192144
+      elevador_30: -1670541005
+      elevador_31: 1731375223
+      elevador_32: 1477978588
       elevador_4: 5619469161769612584
       elevador_5: 7012515738223398462
       elevador_6: 4307615602787503969
       elevador_7: -8510709480869331758
       elevador_8: 5077098082076641082
+      elevador_9: 474669763
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

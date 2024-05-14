@@ -7,9 +7,12 @@ public class Elevador : MonoBehaviour
 {
    public GUISkin layout;
     public static bool subir = false;
-    public static bool esse_elevador = false;
+    public static bool aberto = false;
+
     public Color corDoTexto = Color.red; // Defina a cor desejada aqui
     private Animator anime;
+    private Collider2D colliderInimigo;
+    
 
 
     public KeyCode trocar = KeyCode.E;
@@ -19,34 +22,53 @@ public class Elevador : MonoBehaviour
     void Start()
     {
        anime = GetComponent<Animator>();
+       
     }
 
-    public void Esse_Elevador(){
-        esse_elevador = true;
+    public void PlayerAnimation(string animationName){
+        anime.Play(animationName);
+    }
+    void OnTriggerEnter2D (Collider2D hitInfo) {           
+        if (hitInfo.CompareTag("Player")){
+           	subir = true; 
+        } 
     }
 
-    public  void PlayerAnimation(){
-        anime.Play("porta_elevador");
-    }
-    void OnTriggerEnter2D (Collider2D hitInfo) {     
+    void OnCollisionEnter2D (Collision2D coll) {
+        if(aberto){
+            Debug.Log("OnTriggerEnter2D acionado!");  
+    	    if(coll.collider.CompareTag("Player")){
+			StartCoroutine(WaitAndPrint(0.5f));
+    	}  
+        }
         
-            if (hitInfo.CompareTag("Player")){
-           		    subir = true; 
-            } 
+	}
+
+    IEnumerator WaitAndPrint(float waitTime)
+    {
+        Debug.Log("Esperando " + waitTime + " segundos...");
+        yield return new WaitForSeconds(waitTime);
+        Debug.Log("Tempo de espera concluído. Carregando cena 'Elevador'...");
+        SceneManager.LoadScene("Elevador");
+
     }
     void OnTriggerExit2D (Collider2D hitInfo) {      
-           		subir = false;                        
+           	subir = false;
+            if(aberto == true){
+               PlayerAnimation("porta_elevador_fechando");  
+            }   
+            gameObject.GetComponent<PolygonCollider2D>().isTrigger = false ; 
+            aberto = false;                      
     }
     void OnGUI () {
         GUI.contentColor = corDoTexto;
         Scene scene = SceneManager.GetActiveScene();
         if(Elevador.subir){
             GUI.Label(new Rect(Screen.width / 2 - 40 - 12, 220, 600, 600), "Aperte E para entrar");                    
-            if(Input.GetKey(trocar)){
-                if(esse_elevador){
-                    PlayerAnimation();   
-                }
-                    
+            if(Input.GetKey(trocar)){               
+                PlayerAnimation("porta_elevador"); 
+                gameObject.GetComponent<PolygonCollider2D>().isTrigger = true ;
+                aberto = true;                       
             }
         }
     }
