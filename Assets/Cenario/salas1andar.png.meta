@@ -202,7 +202,7 @@ TextureImporter:
         width: 1196
         height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -223,7 +223,7 @@ TextureImporter:
         width: 1196
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -244,7 +244,7 @@ TextureImporter:
         width: 1188
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -252,6 +252,69 @@ TextureImporter:
       bones: []
       spriteID: e2d837e1e81c2b94f9c62b107bddfe46
       internalID: 27576076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salas1andar_7
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1627
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987837d583e5939498451fd8c0578808
+      internalID: -400896404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salas1andar_8
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1627
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1434bb5212ed64393411793b4149bc
+      internalID: 384845677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salas1andar_9
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1685
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12aa653ed518994a99572942612fc58
+      internalID: -862500436
       vertices: []
       indices: 
       edges: []
@@ -274,6 +337,9 @@ TextureImporter:
       salas1andar_4: 1351864401
       salas1andar_5: 482758416
       salas1andar_6: 27576076
+      salas1andar_7: -400896404
+      salas1andar_8: 384845677
+      salas1andar_9: -862500436
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -19,6 +19,8 @@ public class PlayerControl : MonoBehaviour, IDataPersistence
     public bool cancado;
     public GameObject cam;
     public int hasCam = 1; // 0 - não tem camera, 1 - camera 1, 2 - camera 2
+    public static bool chavecamera = false; // false - não tem chave, true - tem chave
+    public static bool chaveprototipo = false;  // false - não tem chave, true - tem chave
 
     public GameObject lanterna;
     

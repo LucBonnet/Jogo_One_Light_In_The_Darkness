@@ -233,6 +233,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: colecionaveis_3
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862530b2c0e190e4caa95c4117ae50ce
+      internalID: -1006697335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colecionaveis_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 19
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ba975b446df9a4c860199c6b02130c
+      internalID: -1571599730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -247,6 +289,8 @@ TextureImporter:
       colecionaveis_0: -1138607505900937211
       colecionaveis_1: -4540113683566427840
       colecionaveis_2: 3722755711139964387
+      colecionaveis_3: -1006697335
+      colecionaveis_4: -1571599730
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

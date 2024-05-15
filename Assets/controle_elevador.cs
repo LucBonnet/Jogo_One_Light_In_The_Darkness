@@ -47,7 +47,7 @@ public class controle_elevador : MonoBehaviour
             if (Input.GetKey(entrar)) {
                 GameManager.ChangePause(true);
                 andar = 50;
-              GetComponent<SpriteRenderer>().sprite = novoSprite;
+                GetComponent<SpriteRenderer>().sprite = novoSprite;
             }
             if (Input.GetKey(terreo)) {
                GetComponent<SpriteRenderer>().sprite = novoSprite0;
