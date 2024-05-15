@@ -3,7 +3,7 @@ guid: 21f17683f7ae5944fb3f73857bd97e6d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -181,7 +181,7 @@ TextureImporter:
         width: 1197
         height: 241
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,6 +189,69 @@ TextureImporter:
       bones: []
       spriteID: fdb6795e66e5e5b45bebcf9068fee628
       internalID: 2102854066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salas2andar_0
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1130
+        width: 1196
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9171119c751ba0740a16e08b678fb463
+      internalID: 168359988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salas2andar_1
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1158
+        width: 1196
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167f7d4474dc6534db565517632c0475
+      internalID: -2009256795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: salas2andar_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1655
+        width: 1188
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc737c1d3a0c0f43967d7cd147f4853
+      internalID: 1623898748
       vertices: []
       indices: 
       edges: []
@@ -208,6 +271,9 @@ TextureImporter:
       salas1andar_1: -824672674
       salas1andar_2: -1758705786
       salas1andar_3: 2102854066
+      salas2andar_0: 168359988
+      salas2andar_1: -2009256795
+      salas2andar_2: 1623898748
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
