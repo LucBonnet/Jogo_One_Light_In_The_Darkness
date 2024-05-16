@@ -1,16 +1,20 @@
 {
     "playerPosistion": {
-        "x": 53.06753921508789,
-        "y": 3.941267967224121,
+        "x": 4.718409061431885,
+        "y": 2.0279688835144045,
         "z": 0.0
     },
-    "sceneName": "4Andar",
-    "stamina": 100.0,
+    "sceneName": "Terreo",
+    "stamina": 39.49896240234375,
     "maxStamina": 100.0,
-    "playerHasCamera": 2,
+    "playerHasCamera": 0,
     "energeticosColetados": {
-        "keys": [],
-        "values": []
+        "keys": [
+            "9336b610-3272-4d4f-9c34-6b54b8e0a986"
+        ],
+        "values": [
+            false
+        ]
     },
     "sombrasDerrotadas": {
         "keys": [],

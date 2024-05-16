@@ -21,9 +21,15 @@ public class PlayerControl : MonoBehaviour, IDataPersistence
     public static int hasCam = 0; // 0 - não tem camera, 1 - camera 1, 2 - camera 2
     public static bool chavecamera = false; // false - não tem chave, true - tem chave
     public static bool chaveprototipo = false;  // false - não tem chave, true - tem chave
+    private Vector3 pos;
+     private bool posSetted = false;
 
     public GameObject lanterna;
-    
+
+    public void SetPosition(Vector2 pos) {
+        this.pos = new Vector3(pos.x, pos.y, transform.position.z);
+        posSetted = true;
+    }    
     public void PlayerAnimation(string animationName){
         anime.Play(animationName);
     }
@@ -126,9 +132,7 @@ public class PlayerControl : MonoBehaviour, IDataPersistence
     }
 
     public void SaveData(ref GameData data) {
-        Debug.Log("Stamina: " + Stamina.stamina + "\nMaxStamina: " + Stamina.maxStamina);
-        
-        data.playerPosistion = transform.position;
+        data.playerPosistion = posSetted ? pos : transform.position;
         data.playerHasCamera = hasCam;
         data.stamina = Stamina.stamina;
         data.maxStamina = Stamina.maxStamina;

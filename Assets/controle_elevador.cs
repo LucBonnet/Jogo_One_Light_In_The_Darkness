@@ -19,10 +19,13 @@ public class controle_elevador : MonoBehaviour
     public static bool ativado = false;
     private int andar = 100;
     public Color corDoTexto = Color.red;
+
+    private GameObject player;
+    private Vector2 posicaoElevador = new(-1.05f, 5.77f);
     // Start is called before the first frame update
     void Start()
     {
-        
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     void OnTriggerEnter2D (Collider2D hitInfo) {            
@@ -38,8 +41,7 @@ public class controle_elevador : MonoBehaviour
     
     void OnGUI () {
         GUI.contentColor = corDoTexto;
-        if(controle_elevador.ativado){
-            Scene scene = SceneManager.GetActiveScene();
+        if(ativado){
             if (andar ==100){
                  GUI.Label(new Rect(Screen.width / 2 - 20 - 12, 150, 600, 600), "Aperte E para abrir o painel");
             }
@@ -81,6 +83,8 @@ public class controle_elevador : MonoBehaviour
             }
             if (Input.GetKey(aceitar)) {
                 if(andar == 0){
+                    player.SendMessage("SetPosition", posicaoElevador, SendMessageOptions.RequireReceiver);
+                    DataPersistenceManager.instance.SaveGame();
                     SceneManager.LoadScene("Terreo");
                 }
                 if(andar == 1){
