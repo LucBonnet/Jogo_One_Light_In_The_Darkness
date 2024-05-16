@@ -11,6 +11,7 @@ TagManager:
   - sombraI
   - sombraII
   - sombraIII
+  - estatua
   layers:
   - Default
   - TransparentFX

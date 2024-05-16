@@ -27,7 +27,7 @@ public class Sombra2Controler : MonoBehaviour, IDataPersistence
     private float timerDamage = 0.0f;
     private float waitTimeDamage = 0.6f;
 
-    private static bool derrotado = false;
+    private bool derrotado = false;
 
     // Start is called before the first frame update
     void Start()

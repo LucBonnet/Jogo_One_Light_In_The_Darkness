@@ -37,13 +37,13 @@ public class PlayerControl : MonoBehaviour, IDataPersistence
     }
 
     void OnTriggerEnter2D(Collider2D hitinfo) {
-        if(hitinfo.CompareTag("sombraI") || hitinfo.CompareTag("sombraII") || hitinfo.CompareTag("sombraIII")) {
+        if(hitinfo.CompareTag("sombraI") || hitinfo.CompareTag("sombraII") || hitinfo.CompareTag("sombraIII") || hitinfo.CompareTag("estatua")) {
             hitinfo.SendMessage("StartDamage", 0f, SendMessageOptions.RequireReceiver);
         }
     }
 
     void OnTriggerExit2D(Collider2D hitinfo) {
-        if(hitinfo.CompareTag("sombraI") || hitinfo.CompareTag("sombraII") || hitinfo.CompareTag("sombraIII")) {
+        if(hitinfo.CompareTag("sombraI") || hitinfo.CompareTag("sombraII") || hitinfo.CompareTag("sombraIII") || hitinfo.CompareTag("estatua")) {
             if(hitinfo) {
                 hitinfo.SendMessage("StopDamage", 0f, SendMessageOptions.RequireReceiver);
             }

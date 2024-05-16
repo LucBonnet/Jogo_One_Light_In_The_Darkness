@@ -32,7 +32,7 @@ public class CamControler : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        if(other.CompareTag("sombraI") || other.CompareTag("sombraII") || other.CompareTag("sombraIII")) {
+        if(other.CompareTag("sombraI") || other.CompareTag("sombraII") || other.CompareTag("sombraIII") || other.CompareTag("estatua")) {
             other.SendMessage("TakeDamage", damage, SendMessageOptions.RequireReceiver);
         }
     }

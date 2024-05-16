@@ -13,9 +13,9 @@ public class BossControl : MonoBehaviour
     private Animator anim;
 
     private float GenerateTime() {
-        return (float)Random.Range(500, 1000) / 100f;
+        return Random.Range(500, 700) / 100f;
     }
-
+    
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -33,6 +33,7 @@ public class BossControl : MonoBehaviour
 
         anim.SetTrigger("invoke1");
         Vector2 position = transform.position;
+        Debug.Log(sombra.name);
         Instantiate(sombra, position, Quaternion.identity);
     }
 
