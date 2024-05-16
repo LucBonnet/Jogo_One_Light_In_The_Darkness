@@ -18,7 +18,6 @@ public class Sombra2Controler : MonoBehaviour, IDataPersistence
     private SpriteRenderer spr;
     private Animator anim;
     private Vector3 initialPosition;
-    public float visao = 7f;
     private float currentLife;
     public float life = 30;
     private bool damage = false;
@@ -26,6 +25,8 @@ public class Sombra2Controler : MonoBehaviour, IDataPersistence
     private float blockedLife;
     private float timerDamage = 0.0f;
     private float waitTimeDamage = 0.6f;
+
+    private CircleCollider2D cc2d;
 
     private bool derrotado = false;
 
@@ -35,6 +36,7 @@ public class Sombra2Controler : MonoBehaviour, IDataPersistence
         Player = GameObject.FindGameObjectWithTag("Player"); 
         spr = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
+        cc2d = GetComponent<CircleCollider2D>();
         initialPosition = transform.position;
         initialSpeed = speed;
         initialLife = life;
@@ -72,7 +74,7 @@ public class Sombra2Controler : MonoBehaviour, IDataPersistence
         Vector3 playerPos = Player.transform.position;
         float distanceP = Vector3.Distance(playerPos, transform.position);
 
-        if(distanceP < visao) {
+        if(distanceP < cc2d.radius) {
             targetPos = playerPos;
         };
         float distance = Vector3.Distance(targetPos, transform.position);

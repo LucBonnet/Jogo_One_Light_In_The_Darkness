@@ -15,7 +15,7 @@ public class BossControl : MonoBehaviour
     private float GenerateTime() {
         return Random.Range(500, 700) / 100f;
     }
-    
+
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -33,7 +33,7 @@ public class BossControl : MonoBehaviour
 
         anim.SetTrigger("invoke1");
         Vector2 position = transform.position;
-        Debug.Log(sombra.name);
+        sombra.GetComponent<CircleCollider2D>().radius = 60f;
         Instantiate(sombra, position, Quaternion.identity);
     }
 

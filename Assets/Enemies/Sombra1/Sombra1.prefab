@@ -209,8 +209,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538027996d4822f428271e2303766ffe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 
   speed: 1.5
-  life: 10
+  life: 4.5
 --- !u!58 &1276697919590338549
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -246,7 +247,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 4.8889036
+  m_Radius: 60
 --- !u!61 &5023847036018146250
 BoxCollider2D:
   m_ObjectHideFlags: 0

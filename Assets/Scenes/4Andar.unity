@@ -3419,6 +3419,7 @@ GameObject:
   m_Component:
   - component: {fileID: 828360234}
   - component: {fileID: 828360235}
+  - component: {fileID: 828360236}
   m_Layer: 0
   m_Name: GloabalLight
   m_TagString: Untagged
@@ -3493,6 +3494,18 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &828360236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828360233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87699623ca2973142911e245cdfd4cff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &838142167
 GameObject:
   m_ObjectHideFlags: 0
@@ -3811,7 +3824,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 659.62, y: 429.28}
+  m_AnchoredPosition: {x: 659.7, y: 429.96}
   m_SizeDelta: {x: 927, y: 597}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &888246167
@@ -4710,6 +4723,7 @@ MonoBehaviour:
   life: 1000
   olhoE: {fileID: 2096072578}
   olhoD: {fileID: 838142169}
+  globalLight: {fileID: 828360233}
 --- !u!1 &1105488788
 GameObject:
   m_ObjectHideFlags: 0

@@ -2547,6 +2547,7 @@ GameObject:
   m_Component:
   - component: {fileID: 466172796}
   - component: {fileID: 466172797}
+  - component: {fileID: 466172798}
   m_Layer: 0
   m_Name: GloabalLight
   m_TagString: Untagged
@@ -2621,6 +2622,18 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &466172798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466172795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87699623ca2973142911e245cdfd4cff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &468756418
 GameObject:
   m_ObjectHideFlags: 0
@@ -5993,7 +6006,6 @@ MonoBehaviour:
   boundX: 0
   cancado: 0
   cam: {fileID: 310034101}
-  hasCam: 0
   lanterna: {fileID: 218658190}
 --- !u!50 &1214015557
 Rigidbody2D:

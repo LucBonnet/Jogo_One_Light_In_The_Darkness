@@ -10,7 +10,7 @@ public class EstatuaControl : MonoBehaviour
     public Light2D olhoE;
     public Light2D olhoD;
     public GameObject globalLight;
-    private const float MAX_LIFE = 1000f;
+    private const float MAX_LIFE = 10000f;
     private float intensidade;
     private bool damage = false;
     private float timerDamage = 0.0f;
