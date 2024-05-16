@@ -18,7 +18,7 @@ public class PlayerControl : MonoBehaviour, IDataPersistence
     int count = 0;
     public bool cancado;
     public GameObject cam;
-    public int hasCam = 1; // 0 - não tem camera, 1 - camera 1, 2 - camera 2
+    public static int hasCam = 0; // 0 - não tem camera, 1 - camera 1, 2 - camera 2
     public static bool chavecamera = false; // false - não tem chave, true - tem chave
     public static bool chaveprototipo = false;  // false - não tem chave, true - tem chave
 
@@ -53,13 +53,15 @@ public class PlayerControl : MonoBehaviour, IDataPersistence
     // Update is called once per frame
     void Update()
     {
+        int camera = hasCam;
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
         moveDirection = new Vector2(horizontal,vertical);         
 
-        if(Input.GetKeyDown(camAttack) && hasCam > 0) {
+        if(Input.GetKeyDown(camAttack) && camera > 0) {
             cam.SetActive(true);
-            cam.SendMessage("SetCamType", hasCam, SendMessageOptions.RequireReceiver);
+            
+            cam.SendMessage("SetCamType",camera, SendMessageOptions.RequireReceiver);
         }
     }
 
