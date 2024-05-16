@@ -50,7 +50,7 @@ public class Descer : MonoBehaviour
                 } 
                 if(scene.name == "1Andar"){
                     DataPersistenceManager.instance.SaveGame();
-                    SceneManager.LoadScene("Terreo 1");
+                    SceneManager.LoadScene("Terreo");
                     // player.transform.position = new Vector3(1.66f, 0.02f,0f);
                 }   
                 if(scene.name == "2Andar"){

@@ -7,13 +7,17 @@ public class abrir_porta : MonoBehaviour
 
     public GUISkin layout;
     public bool subir = false;
-    public bool aberto = false;
+    public static bool aberto = false;
     public Color corDoTexto = Color.red;
     public KeyCode trocar = KeyCode.E;
      public Sprite novoSprite;
     // Start is called before the first frame update
     void Start()
     {
+        if(aberto){
+            GetComponent<SpriteRenderer>().sprite = novoSprite;        
+            gameObject.GetComponent<BoxCollider2D>().isTrigger = true;  
+        }
     }
 
     void OnTriggerEnter2D (Collider2D hitInfo) {           

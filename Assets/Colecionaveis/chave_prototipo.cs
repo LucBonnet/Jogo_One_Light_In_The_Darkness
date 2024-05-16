@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class chave_camera : MonoBehaviour
+public class chave_prototipo : MonoBehaviour
 {
 
     public GUISkin layout;
@@ -13,7 +13,7 @@ public class chave_camera : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(PlayerControl.chavecamera){
+        if(PlayerControl.chaveprototipo){
             GetComponent<SpriteRenderer>().sprite = novoSprite; 
         }
         
@@ -33,11 +33,11 @@ public class chave_camera : MonoBehaviour
 
     void OnGUI () {
         GUI.contentColor = corDoTexto;
-        if(subir && !PlayerControl.chavecamera){
+        if(subir && !PlayerControl.chaveprototipo){
             GUI.Label(new Rect(Screen.width / 2 - 40 - 12, 220, 600, 600), "Aperte E para pegar");                    
             if(Input.GetKey(trocar)){       
                 GetComponent<SpriteRenderer>().sprite = novoSprite; 
-                PlayerControl.chavecamera = true;                                       
+                PlayerControl.chaveprototipo = true;                                       
             }
         }
     }

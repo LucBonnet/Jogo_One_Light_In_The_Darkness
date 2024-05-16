@@ -1,18 +1,20 @@
 {
     "playerPosistion": {
-        "x": 22.804346084594728,
-        "y": 4.057749271392822,
+        "x": 36.657386779785159,
+        "y": -6.464701175689697,
         "z": 0.0
     },
-    "sceneName": "1Andar",
-    "stamina": 100.0,
+    "sceneName": "Terreo",
+    "stamina": 80.6993408203125,
     "maxStamina": 100.0,
     "playerHasCamera": 0,
     "energeticosColetados": {
         "keys": [
-            "9336b610-3272-4d4f-9c34-6b54b8e0a986"
+            "9336b610-3272-4d4f-9c34-6b54b8e0a986",
+            "c4da3d6e-0265-4943-bf97-ae9af95fa181"
         ],
         "values": [
+            false,
             false
         ]
     }
