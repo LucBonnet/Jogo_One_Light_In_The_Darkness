@@ -2,8 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Sombra2Controler : MonoBehaviour
+public class Sombra2Controler : MonoBehaviour, IDataPersistence
 {
+    [SerializeField] private string id;
+
+    [ContextMenu("Generate guid for id")]
+
+    private void GenerateGuid() {
+        id = System.Guid.NewGuid().ToString();
+    }
+
     public float speed = 2f;
     private float initialSpeed;
     private GameObject Player;
@@ -18,6 +26,8 @@ public class Sombra2Controler : MonoBehaviour
     private float blockedLife;
     private float timerDamage = 0.0f;
     private float waitTimeDamage = 0.6f;
+
+    private static bool derrotado = false;
 
     // Start is called before the first frame update
     void Start()
@@ -51,6 +61,11 @@ public class Sombra2Controler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(derrotado) {
+            Destroy(gameObject);
+            return;
+        }
+
         float step = speed * Time.deltaTime;
         
         Vector3 targetPos = initialPosition;
@@ -86,11 +101,30 @@ public class Sombra2Controler : MonoBehaviour
                 speed = Mathf.Max(speed - 0.01f, 0);
 
                 if(life <= 0) {
-                    Destroy(gameObject);
+                    derrotado = true;
                 }
             }
         }
 
         spr.material.color = new Color(1f, 1f, 1f, Mathf.Max(life*1f/initialLife, 0.3f));
+    }
+
+     public void LoadData(GameData data) {
+        if(id.Equals("")) return;
+
+        data.sombrasDerrotadas.TryGetValue(id, out derrotado);
+        if(derrotado) {
+            gameObject.SetActive(false);
+        }
+    }
+
+    public void SaveData(ref GameData data) {
+        if(id == "") return;
+
+        if(data.sombrasDerrotadas.ContainsKey(id)) {
+            data.sombrasDerrotadas.Remove(id);
+        }
+        
+        data.sombrasDerrotadas.Add(id, derrotado);
     }
 }

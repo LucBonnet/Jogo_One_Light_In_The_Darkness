@@ -1,15 +1,27 @@
 {
     "playerPosistion": {
-        "x": 3.6730613708496095,
-        "y": 3.504857063293457,
+        "x": 3.6556191444396974,
+        "y": 13.530609130859375,
         "z": 0.0
     },
     "sceneName": "Entrada",
-    "stamina": 85.2997055053711,
+    "stamina": 100.0,
     "maxStamina": 100.0,
     "playerHasCamera": 0,
     "energeticosColetados": {
-        "keys": [],
-        "values": []
+        "keys": [
+            "014c890e-248d-42c3-b83c-0ea9169cc5b9"
+        ],
+        "values": [
+            true
+        ]
+    },
+    "sombrasDerrotadas": {
+        "keys": [
+            "014c890e-248d-42c3-b83c-0ea9169cc5b9"
+        ],
+        "values": [
+            true
+        ]
     }
 }
