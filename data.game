@@ -1,0 +1,15 @@
+{
+    "playerPosistion": {
+        "x": 3.6730613708496095,
+        "y": 3.504857063293457,
+        "z": 0.0
+    },
+    "sceneName": "Entrada",
+    "stamina": 85.2997055053711,
+    "maxStamina": 100.0,
+    "playerHasCamera": 0,
+    "energeticosColetados": {
+        "keys": [],
+        "values": []
+    }
+}
